@@ -1,13 +1,11 @@
 local CoreGui = game:GetService("CoreGui")
 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "CenterDotGui"
 screenGui.IgnoreGuiInset = true
 screenGui.DisplayOrder = 10
 screenGui.Parent = CoreGui
 
 local dot = Instance.new("Frame")
-dot.Name = "Dot"
 dot.Size = UDim2.new(0, 3, 0, 3)
 dot.AnchorPoint = Vector2.new(0.5, 0.5)
 dot.Position = UDim2.new(0.5, 0, 0.5, 0)
